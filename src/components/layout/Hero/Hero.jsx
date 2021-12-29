@@ -22,7 +22,7 @@ function Hero() {
             <span>Control de acceso y registro de visitantes</span>
           </div>
           <div className="right-col">
-            <img src={heroImg} alt="Hero Image" />
+            <img src={heroImg} alt="Hero Visualization" />
           </div>
         </div>
       </section>

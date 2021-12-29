@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 // Routes
 import { Blogs } from "../pages/Blogs";
-import { Contacts } from "../pages/Contact";
+import { Contact } from "../pages/Contact";
 import { Home } from "../pages/Home";
 import { Layout } from "../pages/Layout";
 import { NoPage } from "../pages/NoPage";
@@ -15,7 +15,7 @@ function App() {
         <Route path="/" element={<Layout />}>
           <Route index element={<Home />} />
           <Route path="blogs" element={<Blogs />} />
-          <Route path="contact" element={<Contacts />} />
+          <Route path="contact" element={<Contact />} />
           <Route path="*" element={<NoPage />} />
         </Route>
       </Routes>
