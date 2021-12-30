@@ -16,8 +16,10 @@ function Hero() {
               de accesos
             </p>
             <div className="hero-buttons">
-              <button>Descubre como</button>
-              <button>PRUEBA GRATIS</button>
+              <a class="btn btn-1 th-btn btn-ghost-dark" href="#acerca">
+                Descubre cómo
+              </a>
+              <button className="btn">PRUEBA GRATIS</button>
             </div>
             <span>Control de acceso y registro de visitantes</span>
           </div>
